@@ -1,0 +1,16 @@
+﻿@model ProyectoEducacionFinanciera.Data.Lecciones
+
+<!-- Formulario para nuevo estudiante -->
+<form asp-action="CreateLeccion" method="post">
+    <input type="hidden" asp-for="IdTema" />
+    <div class="form-group">
+        <label asp-for="Titulo" class="control-label">Descripción</label>
+        <input asp-for="Titulo" class="form-control" required />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </div>
+</form>
+

@@ -1,0 +1,16 @@
+﻿@model ProyectoEducacionFinanciera.Data.ExamQuestions
+
+<!-- Formulario para nuevo estudiante -->
+<form asp-action="CreateExamen" method="post">
+    <input type="hidden" asp-for="IdLeccion" />
+    <div class="form-group">
+        <label asp-for="QuestionText" class="control-label">Pregunta</label>
+        <input asp-for="QuestionText" class="form-control" required />
+        <span asp-validation-for="QuestionText" class="text-danger"></span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </div>
+</form>
+

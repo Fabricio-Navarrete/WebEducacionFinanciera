@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProyectoEducacionFinanciera</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#" style="color:white">ProyectoEducacionFinanciera</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- Menú lateral desplegable -->
+    <div id="sidebarMenu">
+        <ul class="nav flex-column">
+
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Leccion"><i class="fas fa-book-open" style="margin-right:10px;"></i> Lecciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Estudiantes"><i class="fas fa-users" style="margin-right:10px;"></i> Estudiantes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Chatbot"><i class="fas fa-robot" style="margin-right:10px;"></i> Chatbot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Desafio"><i class="fas fa-challenge" style="margin-right:10px;"></i> Desafío</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Reportes"><i class="fas fa-chart-line" style="margin-right:10px;"></i> Reportes</a>
+            </li>
+            <!-- Más enlaces aquí -->
+        </ul>
+    </div>
+
+
+    <!-- Contenedor principal -->
+    <div class="container-fluid" style="padding-top: 56px;">
+        <!-- Espacio para la barra de navegación -->
+        <div class="row">
+            <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+        <div class="container">
+            &copy; 2023 - ProyectoEducacionFinanciera - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Asegúrate de incluir los enlaces a Bootstrap JS y Font Awesome para los iconos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.unobtrusive-ajax/3.2.6/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

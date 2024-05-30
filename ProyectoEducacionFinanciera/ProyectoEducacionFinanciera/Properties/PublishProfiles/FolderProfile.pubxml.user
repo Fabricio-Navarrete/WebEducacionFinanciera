@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Publicaciones\api EduFin</_PublishTargetUrl>
+    <History>True|2023-12-07T05:13:11.7987484Z;True|2023-12-06T23:41:37.7367295-05:00;True|2023-12-05T00:52:09.7382126-05:00;True|2023-12-03T22:35:15.7706657-05:00;True|2023-12-03T22:30:48.1081753-05:00;True|2023-12-03T00:09:12.7055239-05:00;True|2023-12-03T00:04:30.4118795-05:00;True|2023-12-03T00:02:31.5897683-05:00;True|2023-12-02T23:59:44.6996256-05:00;True|2023-12-02T21:28:09.2163249-05:00;True|2023-12-02T20:40:09.8080124-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

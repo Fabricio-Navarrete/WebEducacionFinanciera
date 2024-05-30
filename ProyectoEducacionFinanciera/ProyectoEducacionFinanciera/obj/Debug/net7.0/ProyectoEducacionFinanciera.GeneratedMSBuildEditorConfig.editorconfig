@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProyectoEducacionFinanciera
+build_property.RootNamespace = ProyectoEducacionFinanciera
+build_property.ProjectDir = c:\Users\DELL\Desktop\ProyectoEducacionFinanciera\ProyectoEducacionFinanciera\ProyectoEducacionFinanciera\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\DELL\Desktop\ProyectoEducacionFinanciera\ProyectoEducacionFinanciera\ProyectoEducacionFinanciera
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/ContenidoExamen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDb250ZW5pZG9FeGFtZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/ContenidoLecciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDb250ZW5pZG9MZWNjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/ContenidoRespuesta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDb250ZW5pZG9SZXNwdWVzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/CreateContenido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDcmVhdGVDb250ZW5pZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/CreateExamen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDcmVhdGVFeGFtZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/CreateLeccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxDcmVhdGVMZWNjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/EditarRespuestas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxFZGl0YXJSZXNwdWVzdGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/EditContenido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxFZGl0Q29udGVuaWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/EditLeccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxFZGl0TGVjY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/EditTemas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxFZGl0VGVtYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Leccion/ListarLecciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvblxMaXN0YXJMZWNjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/DELL/Desktop/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/ProyectoEducacionFinanciera/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mme5fr9jh5

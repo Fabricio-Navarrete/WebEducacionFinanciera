@@ -1,0 +1,100 @@
+/* Ajustes generales */
+body, html {
+    height: 100%; /* Establece la altura para que la barra lateral pueda extenderse completamente */
+    margin: 0; /* Remueve los márgenes por defecto */
+    background-color: whitesmoke;
+}
+
+/* Barra de navegación superior */
+.navbar {
+    background-color: #1a1f4c; /* Ajusta el color de fondo según sea necesario */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para la barra de navegación */
+}
+
+/* Barra lateral */
+#sidebarMenu {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    overflow-y: auto;
+    background-color: #FFF; /* Color oscuro para un look moderno */
+    color: #fff; /* Texto en color blanco para contraste */
+    border-right: none; /* Removido para un diseño más limpio */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15); /* Sombra más pronunciada para profundidad */
+    border-radius: 0; /* Bordes rectos para un look más moderno */
+    font-size: 16px;
+}
+   
+/* Elementos de navegación */
+.nav-link {
+    color: black; /* Color de enlace más suave */
+    padding: 0.5rem 1rem; /* Espaciado más generoso */
+    margin: 0 1rem; /* Margen para separar de los bordes */
+    border-radius: 0.25rem; /* Bordes ligeramente redondeados */
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Transición suave para hover y focus */
+    display: flex;
+    align-items: center;
+    font-size: 20px !important;
+    margin-left: 10px !important;
+}
+   
+
+    .nav-link:hover, .nav-link:focus {
+        color: #fff; /* Color blanco al pasar el mouse o seleccionar */
+        background-color: #495057; /* Fondo ligeramente más oscuro para resaltar */
+        text-decoration: none; /* Sin subrayado al pasar el mouse */
+    }
+
+    .nav-link.active {
+        background-color: #007bff; /* Color de fondo para el enlace activo */
+        color: #fff;
+        border-radius: 0.25rem;
+    }
+
+    .nav-link i {
+        margin-right: 20px; /* Añade un margen a la derecha del icono */
+    }
+/* Contenido principal */
+.container-fluid {
+    padding-top: 56px; /* Espacio para la barra de navegación superior */
+    padding-left: 250px; /* Espacio para la barra lateral fija */
+    padding-right: 15px;
+    margin-top:15px;
+}
+
+/* Estilo principal para el contenido central */
+main {
+    background-color: #fff; /* Fondo blanco para el contenido */
+    padding: 2rem; /* Espaciado interno */
+    margin-bottom: 1rem; /* Margen inferior */
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05); /* Sombra suave para el efecto 3D */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    max-width: 100%; /* Ancho máximo para grandes pantallas */
+    margin-left: auto; /* Centrar el bloque si es menos que el máximo */
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+@media (max-width: 867px) {
+    /* En dispositivos móviles, el menú lateral se colapsará y el contenido se expandirá */
+    #sidebarMenu {
+        width: 100%; /* El menú lateral ocupa el ancho completo */
+        height: auto; /* Altura automática */
+        position: static; /* No fijo */
+        padding: 0; /* Sin padding */
+    }
+
+    .container-fluid {
+        padding-left: 15px; /* Padding estándar */
+        padding-right: 15px;
+        padding-top: 1rem; /* Espacio adicional para la barra de navegación */
+    }
+
+    main {
+        margin-top: 1rem; /* Espacio arriba en dispositivos móviles */
+    }
+}
