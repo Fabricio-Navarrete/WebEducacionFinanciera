@@ -18,7 +18,8 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
         {
             try
             {
-                var lista = await _context.Estudiantes.Where(t => t.Usuario == user && t.Contraseña == pwd).FirstOrDefaultAsync();
+                var lista = await _context.Estudiantes.Where(t => t.NombreUsuario == user &&
+                t.Password == pwd).FirstOrDefaultAsync();
                 if (lista == null)
                 {
                     return NotFound();
@@ -34,6 +35,16 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
         public async Task<IActionResult> ObtenerEstudiante(int id)
         {
             var lista = await _context.Estudiantes.Where(t => t.IdEstudiante == id).FirstOrDefaultAsync();
+            if (lista == null)
+            {
+                return NotFound();
+            }
+            return Ok(lista);
+        }
+        [HttpGet("ListarUsuarios")]
+        public async Task<IActionResult> ListarUsuarios()
+        {
+            var lista = await _context.Estudiantes.ToListAsync();
             if (lista == null)
             {
                 return NotFound();
