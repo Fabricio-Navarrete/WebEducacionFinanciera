@@ -44,7 +44,7 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
         [HttpGet("ListarUsuarios")]
         public async Task<IActionResult> ListarUsuarios()
         {
-            var lista = await _context.Estudiantes.ToListAsync();
+            var lista = await _context.Estudiantes.Where(t=>t.Estado=="1").ToListAsync();
             if (lista == null)
             {
                 return NotFound();
@@ -57,7 +57,8 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
             try
             {
                 estudiante.Puntaje = 0;
-                estudiante.Nivel = 0;
+                estudiante.Nivel = 1;
+                estudiante.Estado = "1";
                 _context.Estudiantes.Add(estudiante);
                 await _context.SaveChangesAsync();
                 return Ok(estudiante);
