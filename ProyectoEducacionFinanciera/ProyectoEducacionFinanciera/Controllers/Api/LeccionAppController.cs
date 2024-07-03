@@ -152,6 +152,87 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("ListPlanAhorro")]
+        public async Task<IActionResult> ListPlanAhorro(int idEstudiante)
+        {
+            try
+            {
+                var planes = await _context.PLANES_AHORRO.Where(t => t.IdEstudiante == idEstudiante).ToListAsync();
+                if (planes == null)
+                {
+                    return NotFound();
+                }
+                var lista = new List<ListSavingsPlan>();
+                foreach(var item in planes)
+                {
+                    var objecto = new ListSavingsPlan
+                    {
+                        goalName = item.goalName,
+                        targetAmount = item.targetAmount,
+                        currentSavings = item.currentSavings,
+                        idEstudiante = item.IdEstudiante,
+                        id = item.id
+                    };
+                    lista.Add(objecto);
+                }
+                return Ok(lista);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
+        [HttpPost("SavePlan")]
+        public async Task<IActionResult> SavePlan(ListSavingsPlan model)
+        {
+            try
+            {
+                if(model == null)
+                {
+                    return Ok();
+                }
+                var objeto = new PLANES_AHORRO
+                {
+                    goalName = model.goalName,
+                    targetAmount = model.targetAmount,
+                    months = 12,
+                    createdAt = DateTime.Now.Date,
+                    currentSavings = 0,
+                    IdEstudiante = model.idEstudiante
+                };
+                _context.Add(objeto);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpPost("updateSavings")]
+        public async Task<IActionResult> updateSavings(ListSavingsPlan model)
+        {
+            try
+            {
+                if (model == null)
+                {
+                    return Ok();
+                }
+                var objeto = await _context.PLANES_AHORRO.Where
+                    (t => t.id == model.id).FirstOrDefaultAsync();
+                if(objeto != null)
+                {
+                    objeto.currentSavings += model.currentSavings;
+                    _context.Update(objeto);
+                    await _context.SaveChangesAsync();
+                }
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
     }
 }

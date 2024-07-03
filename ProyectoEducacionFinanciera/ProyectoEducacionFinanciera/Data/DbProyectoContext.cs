@@ -27,7 +27,9 @@ public partial class DbProyectoContext : DbContext
         modelBuilder.Entity<Contenido_Lecciones>().ToTable("Contenido_Lecciones", "Dbo");
         modelBuilder.Entity<Preguntas>().ToTable("Preguntas", "Dbo");
         modelBuilder.Entity<Respuestas>().ToTable("Respuestas", "Dbo");
+        modelBuilder.Entity<PLANES_AHORRO>().ToTable("PLANES_AHORRO", "Dbo");
     }
+    public DbSet<PLANES_AHORRO> PLANES_AHORRO { get; set; }
     public DbSet<Respuestas> Respuestas { get; set; }
     public DbSet<Contenido_Lecciones> Contenido_Lecciones { get; set; }
     public DbSet<Preguntas> Preguntas { get; set; }

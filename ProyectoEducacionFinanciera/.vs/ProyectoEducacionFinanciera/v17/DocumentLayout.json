@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\controllers\\api\\usuariosappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\controllers\\api\\leccionappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\controllers\\api\\leccionappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\data\\dbproyectocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\data\\dbproyectocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\data\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\data\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\data\\planes_ahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\data\\planes_ahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\controllers\\api\\leccionappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\controllers\\api\\leccionappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|c:\\proyectosvisual\\webeducacionfinanciera\\proyectoeducacionfinanciera\\proyectoeducacionfinanciera\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1B1ABAF-FCC2-44E9-B62C-D108D1E2844A}|ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera.csproj|solutionrelative:proyectoeducacionfinanciera\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DbProyectoContext.cs",
+              "DocumentMoniker": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\DbProyectoContext.cs",
+              "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\Data\\DbProyectoContext.cs",
+              "ToolTip": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\DbProyectoContext.cs",
+              "RelativeToolTip": "ProyectoEducacionFinanciera\\Data\\DbProyectoContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwB8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T01:43:31.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PLANES_AHORRO.cs",
+              "DocumentMoniker": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\PLANES_AHORRO.cs",
+              "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\Data\\PLANES_AHORRO.cs",
+              "ToolTip": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\PLANES_AHORRO.cs",
+              "RelativeToolTip": "ProyectoEducacionFinanciera\\Data\\PLANES_AHORRO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T01:42:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\appsettings.json",
               "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\appsettings.json",
@@ -38,18 +72,17 @@
               "RelativeToolTip": "ProyectoEducacionFinanciera\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAD+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-30T22:20:24.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T22:20:24.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LeccionAppController.cs",
               "DocumentMoniker": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Controllers\\Api\\LeccionAppController.cs",
               "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\Controllers\\Api\\LeccionAppController.cs",
               "ToolTip": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Controllers\\Api\\LeccionAppController.cs",
               "RelativeToolTip": "ProyectoEducacionFinanciera\\Controllers\\Api\\LeccionAppController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCIAAABBAAAA",
+              "ViewState": "AQIAALoAAAAAAAAAAAAIwOYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T22:08:03.216Z",
               "EditorCaption": ""
@@ -62,20 +95,20 @@
               "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\Controllers\\Api\\UsuariosAppController.cs",
               "ToolTip": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Controllers\\Api\\UsuariosAppController.cs",
               "RelativeToolTip": "ProyectoEducacionFinanciera\\Controllers\\Api\\UsuariosAppController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwC8AAAAeAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwDwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T22:06:56.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\Estudiante.cs",
               "RelativeDocumentMoniker": "ProyectoEducacionFinanciera\\Data\\Estudiante.cs",
               "ToolTip": "C:\\ProyectosVisual\\WebEducacionFinanciera\\ProyectoEducacionFinanciera\\ProyectoEducacionFinanciera\\Data\\Estudiante.cs",
               "RelativeToolTip": "ProyectoEducacionFinanciera\\Data\\Estudiante.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAcAAAAtAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T05:05:26.683Z",
               "EditorCaption": ""

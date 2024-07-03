@@ -51,6 +51,17 @@ namespace ProyectoEducacionFinanciera.Controllers.Api
             }
             return Ok(lista);
         }
+        [HttpGet("ListarUsuariosDesafio")]
+        public async Task<IActionResult> ListarUsuariosDesafio(int idEstudiante)
+        {
+            var lista = await _context.Estudiantes.Where(t => t.Estado == "1" &&
+            t.IdEstudiante!=idEstudiante).ToListAsync();
+            if (lista == null)
+            {
+                return NotFound();
+            }
+            return Ok(lista);
+        }
         [HttpPost("RegistrarEstudiante")]
         public async Task<IActionResult> RegistrarEstudiante(Estudiante estudiante)
         {
